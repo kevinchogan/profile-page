@@ -1,2 +1,48 @@
+.portrait {
+    height: 130px;
+    width: 100px;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+.justify-center {
+    justify-content: center;
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 25% 25%; 
+}
+
+.card-column {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+}
+  
+.code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 1.5rem;
+    border: 1px solid darkgray;
+    box-shadow: 5px 5px 10px darkgray;
+}
+ 
+@media screen and (min-width: 768px) {
+    .card-column {
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-column {
+        max-width: 33.333%;
+    }
+} 
