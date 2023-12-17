@@ -92,7 +92,6 @@ footer {
 }
 
 .card-image {
-    height: 20rem;
     width: 100%;
     object-fit: cover;
     object-position: 25% 25%; 
@@ -101,6 +100,19 @@ footer {
 .card-column {
     flex: 1 0 100%;
     padding: 1.5rem;
+    min-height: 40rem;
+}
+
+.card-column .card-image {
+    height: 25rem;
+}
+
+.card-column.rest .card-image {
+    height: 20rem;
+}
+
+.card-column.rest {
+    min-height: fit-content;
 }
 
 
