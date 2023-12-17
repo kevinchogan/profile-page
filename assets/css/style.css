@@ -13,13 +13,13 @@ header {
     color: #555555;
 }
 
-h1, h2 {
+h1 {
     margin: 1rem;
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 1rem;
+    margin: 0 0.5rem;
 }
 
 header nav ul li a {
@@ -37,17 +37,26 @@ body {
     line-height: 1.5;
 }
 
+footer {
+    margin: 1.5rem;
+    text-align: center;
+}
+
 .portrait {
     height: 130px;
     width: 100;
     float: left;
-    margin: 0 1rem;
+    margin: 0 1rem 1rem 0;
 }
 
 .about-me {
     display: block;
     margin: 1rem;
     min-height: 190px;
+}
+
+.work-header {
+    margin-left: 1rem;
 }
 
 .row {
@@ -99,7 +108,7 @@ body {
 } 
 
 .contacts {
-    margin: 1rem;
+    margin: 2rem;
 }
 
 @media screen and (min-width: 768px) {
