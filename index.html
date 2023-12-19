@@ -1,130 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Kevin's Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Site Header -->
     <header>
-        <h1>Kevin Hogan</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About_Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact_Info">Contact Info</a>
-                </li>
-                <li>
-                    <a href="./assets/pdf/Kevin Hogan Resume.pdf">Resume</a>
-                </li>
-            </ul>
-        </nav>
+      <h1>Kevin Hogan</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#About_Me">About Me</a>
+          </li>
+          <li>
+            <a href="#Work">Work</a>
+          </li>
+          <li>
+            <a href="#Contact_Info">Contact Info</a>
+          </li>
+          <li>
+            <a href="./assets/pdf/Kevin Hogan Resume.pdf">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!--Main-->
     <main>
-        <!--About Me-->
-        <section class="about-me">
-            <h2 id="About_Me">About Me</h2>
-            <div>
-                <img class="portrait" src="./assets/images/portrait.jpg">
-                <p> I have spent over 30 years in the video game industry as a producer, designer, and development director, having worked on some of the most successful 
-                    franchises in the industry&#39;s history including NHL Hockey, John Madden Football, Sim City, The Sims, and Monopoly Go!  I discovered a deep passion for 
-                    programming as a child teaching myself BASIC on my TI-99/4A.   During my time as a team leader in video gaming I taught myself VBA.  I now intend to spend 
-                    the second half of my life focused on pursuing that passion full-time as a web application developer.</p>
-            </div>
-        </section>
+      <!--About Me-->
+      <section class="about-me">
+        <h2 id="About_Me">About Me</h2>
+        <div>
+          <img class="portrait" src="./assets/images/portrait.jpg" />
+          <p>
+            I have spent over 30 years in the video game industry as a producer,
+            designer, and development director, having worked on some of the
+            most successful franchises in the industry&#39;s history including
+            NHL Hockey, John Madden Football, Sim City, The Sims, and Monopoly
+            Go! I discovered a deep passion for programming as a child teaching
+            myself BASIC on my TI-99/4A. During my time as a team leader in
+            video gaming I taught myself VBA. I now intend to spend the second
+            half of my life focused on pursuing that passion full-time as a web
+            application developer.
+          </p>
+        </div>
+      </section>
 
-        <!--Work: Series of cards linked to web applications-->
-        <h2 id="Work" class="work-header">Work</h2>
-        <!--First Card: spans whole screen irrespective of screen width-->
-        <section class="row justify-center">
-            <div class="card-column">
-                <a target=”_blank” href="https://kevinchogan.github.io/module-01/">
-                    <figure class="card">
-                        <h3 class="card-header">Web Marketing Services</h3>
-                        <img class="card-image" src="./assets/images/image-06.jpg">
-                        <div class="card-body">Refactored existing code in a web application to include accessibility features, improve code readability, and adhere to semantic HTML element style standards.</div>
-                    </figure>
-                </a>
-            </div>
-        </section>
-        <!--Remaining Cards: Organized into as many as 3 columns depending on screen width-->
-        <section class="row justify-center">
-            <!--Card 02-->
-            <div class="card-column rest">
-                <a target=”_blank” href="#">
-                    <figure class="card">
-                        <h3 class="card-header">Lorem Ipsum</h3>
-                        <img class="card-image" src="./assets/images/image-02.jpg">
-                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</div>
-                    </figure>
-                </a>
-            </div>
-            <!--Card 03-->
-            <div class="card-column rest">
-                <a target=”_blank” href="#">
-                    <figure class="card">
-                        <h3 class="card-header">Dolor Sit</h3>
-                        <img class="card-image" src="./assets/images/image-01.jpg">
-                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</div>
-                    </figure>
-                </a>
-            </div>
-            <!--Card 04-->
-            <div class="card-column rest">
-                <a target=”_blank” href="#">
-                    <figure class="card">
-                        <h3 class="card-header">Consectetur Adipisci Elit</h3>
-                        <img class="card-image" src="./assets/images/image-04.jpg">
-                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</div>
-                    </figure>
-                </a>
-            </div>
-            <!--Card 05-->
-            <div class="card-column rest">
-                <a target=”_blank” href="#">
-                    <figure class="card">
-                        <h3 class="card-header">Corporis Suscipit</h3>
-                        <img class="card-image" src="./assets/images/image-05.jpg">
-                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</div>
-                    </figure>
-                </a>
-            </div>
-            <!--Card 06-->
-            <div class="card-column rest">
-                <a target=”_blank” href="#">
-                    <figure class="card">
-                        <h3 class="card-header">Nulla Pariatur</h3>
-                        <img class="card-image" src="./assets/images/image-03.jpg">
-                        <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</div>
-                    </figure>
-                </a>
-            </div>
-        </section>
+      <!--Work: Series of cards linked to web applications-->
+      <h2 id="Work" class="work-header">Work</h2>
+      <!--First Card: spans whole screen irrespective of screen width-->
+      <section class="row justify-center">
+        <div class="card-column">
+          <a target="”_blank”" href="https://kevinchogan.github.io/module-01/">
+            <figure class="card">
+              <h3 class="card-header">Web Marketing Services</h3>
+              <img class="card-image" src="./assets/images/image-06.jpg" />
+              <div class="card-body">
+                Refactored existing code in a web application to include
+                accessibility features, improve code readability, and adhere to
+                semantic HTML element style standards.
+              </div>
+            </figure>
+          </a>
+        </div>
+      </section>
+      <!--Remaining Cards: Organized into as many as 3 columns depending on screen width-->
+      <section class="row justify-center">
+        <!--Card 02-->
+        <div class="card-column rest">
+          <a target="”_blank”" href="#">
+            <figure class="card">
+              <h3 class="card-header">Lorem Ipsum</h3>
+              <img class="card-image" src="./assets/images/image-02.jpg" />
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </div>
+            </figure>
+          </a>
+        </div>
+        <!--Card 03-->
+        <div class="card-column rest">
+          <a target="”_blank”" href="#">
+            <figure class="card">
+              <h3 class="card-header">Dolor Sit</h3>
+              <img class="card-image" src="./assets/images/image-01.jpg" />
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </div>
+            </figure>
+          </a>
+        </div>
+        <!--Card 04-->
+        <div class="card-column rest">
+          <a target="”_blank”" href="#">
+            <figure class="card">
+              <h3 class="card-header">Consectetur Adipisci Elit</h3>
+              <img class="card-image" src="./assets/images/image-04.jpg" />
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </div>
+            </figure>
+          </a>
+        </div>
+        <!--Card 05-->
+        <div class="card-column rest">
+          <a target="”_blank”" href="#">
+            <figure class="card">
+              <h3 class="card-header">Corporis Suscipit</h3>
+              <img class="card-image" src="./assets/images/image-05.jpg" />
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </div>
+            </figure>
+          </a>
+        </div>
+        <!--Card 06-->
+        <div class="card-column rest">
+          <a target="”_blank”" href="#">
+            <figure class="card">
+              <h3 class="card-header">Nulla Pariatur</h3>
+              <img class="card-image" src="./assets/images/image-03.jpg" />
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisci elit, sed
+                eiusmod tempor incidunt ut labore et dolore magna aliqua.
+              </div>
+            </figure>
+          </a>
+        </div>
+      </section>
 
-        <!--Contact Info-->
-        <section class="contacts">
-            <h2  id="Contact_Info">Contact Info</h2>
-            <ul>
-                <li>Phone Number: <a href="tel:9256990145">925-699-0145</a></li>
-                <li>Email: <a href="mailto:kchogan@pacbell.net">kchogan@pacbell.net</a></li>
-                <li>LinkedIn: <a target=”_blank” href="https://www.linkedin.com/in/kevin-hogan-aa53392/">Profile</a></li>
-            </ul>
-        </section>
+      <!--Contact Info-->
+      <section class="contacts">
+        <h2 id="Contact_Info">Contact Info</h2>
+        <ul>
+          <li>Phone Number: <a href="tel:9256990145">925-699-0145</a></li>
+          <li>
+            Email: <a href="mailto:kchogan@pacbell.net">kchogan@pacbell.net</a>
+          </li>
+          <li>
+            LinkedIn:
+            <a
+              target="”_blank”"
+              href="https://www.linkedin.com/in/kevin-hogan-aa53392/"
+              >Profile</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
-    
+
     <!-- Footer -->
     <footer>
-        <h3>Made with <span role="img" aria-label="heart">❤️</span> and CSS</h3>
+      <h3>Made with <span role="img" aria-label="heart">❤️</span> and CSS</h3>
     </footer>
-</body>
+  </body>
 </html>
