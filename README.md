@@ -1,6 +1,6 @@
 # module-02
 Portfolio Page
-![Image of Horiseon web site](./assets/images/Capture.PNG)
+![Image of Kevin Hogan's portfolio page](./assets/images/Capture.PNG)
 [Kevin Hogan's Portfolio Page](https://kevinchogan.github.io/module-02/)
 
 ## Description
