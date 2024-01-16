@@ -1,7 +1,7 @@
 # profile-page
 Portfolio Page
 ![Image of Kevin Hogan's portfolio page](./assets/images/Capture.PNG)
-[Kevin Hogan's Portfolio Page](https://kevinchogan.github.io/module-02/)
+[Kevin Hogan's Portfolio Page](https://kevinchogan.github.io/profile-page/)
 
 ## Description
 
